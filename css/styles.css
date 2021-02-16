@@ -2,12 +2,33 @@
 * {
     margin: 0;
     padding: 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 
 body {
     margin: 30px auto;
     width: 80%;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: rgb(27, 27, 27);
 }
 
 .center {
@@ -15,10 +36,11 @@ body {
 }
 
 section {
-    border: 2px solid gray;
+    border: 2px solid rgb(27, 27, 27);
     padding: 15px 15px 40px 15px;
     margin-bottom: 20px;
     width: 100%;
+    line-height: 1.4;
 }
 
 .sectionTitle {
@@ -33,20 +55,29 @@ section {
     color: black;
 }
 
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: 300;
+}
+
 /* Header */
 header {
     padding-bottom: 20px;
 }
 
 /* Colors section */
-
-
 .colorContainer {
     display: inline-block;
-    width: 20%;
+    width: 25%;
     text-align: center;
     height: 100px;
-    background-color: burlywood;
     margin: 10px;
     padding: 30px 10px;
 }
@@ -67,4 +98,30 @@ header {
     background-color: #e9c46a;
 }
 
+#fourthColor {
+    background-color: #f4a261;
+}
 
+/* Fonts section */
+#fontsSection h3{
+    text-decoration: underline;
+}
+
+.fontContainer {
+    display: inline-block;
+    width: auto;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#firstFont {
+    font-family: "Roboto";
+}
+
+#secondFont {
+    font-family: "Lato";
+}
+
+#thirdFont {
+    font-family: "Rubik";
+}
