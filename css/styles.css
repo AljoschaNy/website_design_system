@@ -1,0 +1,70 @@
+/* Universal style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 30px auto;
+    width: 80%;
+    font-family: sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+section {
+    border: 2px solid gray;
+    padding: 15px 15px 40px 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.sectionTitle {
+    margin: 40px 20px;
+}
+
+.brightFont {
+    color: white;
+}
+
+.darkFont {
+    color: black;
+}
+
+/* Header */
+header {
+    padding-bottom: 20px;
+}
+
+/* Colors section */
+
+
+.colorContainer {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    height: 100px;
+    background-color: burlywood;
+    margin: 10px;
+    padding: 30px 10px;
+}
+
+.colorContainer h3{
+    padding: 10px;
+}
+
+#firstColor {
+    background-color: #264653;
+}
+
+#secondColor {
+    background-color: #2a9d8f;
+}
+
+#thirdColor {
+    background-color: #e9c46a;
+}
+
+
