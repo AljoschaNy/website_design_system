@@ -7,12 +7,14 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-weight: 700;
 }
 
 h1{
     font-size: 35px;
+    font-family: "Rubik", sans-serif;
 }
 
 h2 {
@@ -66,6 +68,7 @@ section {
 .light {
     font-weight: 300;
 }
+
 
 /* Header */
 header {
@@ -124,4 +127,13 @@ header {
 
 #thirdFont {
     font-family: "Rubik";
+}
+
+/* Text styles section */
+#textStylesSection ul {
+    margin: 10px 0 40px 20px;
+}
+
+#textStylesSection h3 {
+    padding: 0;
 }
