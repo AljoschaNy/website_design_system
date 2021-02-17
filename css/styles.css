@@ -45,6 +45,10 @@ section {
     line-height: 1.4;
 }
 
+section ul {
+    margin: 10px 0 40px 20px;
+}
+
 .sectionTitle {
     margin: 40px 20px;
 }
