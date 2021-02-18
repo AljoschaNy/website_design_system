@@ -79,6 +79,16 @@ header {
     padding-bottom: 20px;
 }
 
+header .navigation {
+    display: inline-block;
+    padding: 15px 15px 15px 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
 /* Colors section */
 .colorContainer {
     display: inline-block;
